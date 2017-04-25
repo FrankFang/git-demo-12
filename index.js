@@ -3,7 +3,7 @@ var fs = require('fs')
 var url = require('url')
 
 //console.log(Object.keys(http))
-var port = process.env.PORT || 9999;
+var port = process.env.PORT || 10000;
 
 var server = http.createServer(function(request, response){
 
